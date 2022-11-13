@@ -34,7 +34,8 @@ Variables
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-green-light: hsl(125, 61%, 73%);
+  --clr-green-light2: hsl(124, 59%, 90%);
   --clr-black: #222;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
@@ -164,7 +165,7 @@ Grocery List
 ===============
 */
 .section-center {
-  background: var(--clr-white);
+  background: var(--clr-green-light);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
@@ -217,7 +218,7 @@ Grocery List
   color: var(--clr-grey-5);
 }
 .submit-btn {
-  background: var(--clr-primary-8);
+  background: yellow;
   border-color: transparent;
   flex: 0 0 5rem;
   display: grid;
